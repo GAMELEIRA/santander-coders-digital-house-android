@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         findViewById<TextView>(R.id.actMainTxtHello).text = "I AM HERE!";
 
-        actMainBtn.setOnClickListener(this)
+        actMainBtn.setOnClickListener(this);
 
         /**actMainBtn.setOnClickListener {
 
