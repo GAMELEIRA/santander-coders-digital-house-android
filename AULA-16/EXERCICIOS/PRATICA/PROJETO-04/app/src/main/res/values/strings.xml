@@ -1,0 +1,5 @@
+<resources>
+    <string name="sign"><u>Sign Up</u></string>
+    <string name="app_name">Projeto-04</string> 
+    <string name="foobar">FOOBAR</string>
+</resources>

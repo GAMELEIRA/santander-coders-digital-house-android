@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C180FF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/foobar"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:paddingTop="50sp"
+            android:paddingBottom="50sp"
+            android:fontFamily="sans-serif-light"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            ></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            ></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#8051c4"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            ></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
