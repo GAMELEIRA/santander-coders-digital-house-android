@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projeto-08</string>
+    <string name="label">Temperatura em Celsius</string>
+    <string name="placeholder">Digite a temperatura</string>
+    <string name="botao">Converter</string>
+    <string name="resultado">%.2f Fahrenheit</string>
+</resources>
