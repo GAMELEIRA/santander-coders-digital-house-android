@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projeto-07</string>
+    <string name="nome">Nome</string>
+    <string name="placeholder">Digite o seu nome</string>
+    <string name="exibir">Exibir</string>
+    <string name="resultado">Meu nome é %s</string>
+</resources>

@@ -28,9 +28,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     fun mudarTexto() {
         if (validar()) {
-            resultado.text = "É PAR";
+            resultado.text = getString(R.string.mensagem_par, txtNumero.text.toString().toInt());
         } else {
-            resultado.text = "É IMPAR";
+            resultado.text = getString(R.string.mensagem_impar, txtNumero.text.toString().toInt());
         }
     }
 }

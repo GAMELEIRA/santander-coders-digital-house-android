@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Projeto-06</string>
+    <string name="mensagem_par">%d é par</string>
+    <string name="mensagem_impar">%d é impar</string>
 </resources>
