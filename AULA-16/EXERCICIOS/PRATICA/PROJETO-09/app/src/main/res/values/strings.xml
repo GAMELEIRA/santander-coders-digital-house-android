@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projeto-09</string>
+    <string name="horasTrabalhadas">Horas Trabalhadas</string>
+    <string name="placeholderTrabalho">Informe as horas trabalhadas</string>
+    <string name="valorHora">Valor da hora</string>
+    <string name="placeholderHoras">Informe o valor das horas</string>
+    <string name="calc">Calcular</string>
+    <string name="retorno">R$ %.2f</string>
+</resources>
