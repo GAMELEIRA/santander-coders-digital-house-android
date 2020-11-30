@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18sp"
+        android:layout_marginLeft="18sp"
+        android:layout_marginTop="22dp"
+        android:text="Nome"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:hint="Digite seu nome" />
+
+    <Button
+        android:id="@+id/btnExibir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="#303e9f"
+        android:text="Exibir"
+        android:textAllCaps="false"
+        android:textColor="@color/white"></Button>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="50dp"
+        android:text="Meu nome é"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:padding="80dp"
+        tools:visibility="visible"></TextView>
+
+</LinearLayout>

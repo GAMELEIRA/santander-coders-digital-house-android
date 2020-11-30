@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.projeto_01"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -33,7 +33,10 @@ android {
 }
 
 dependencies {
+
     def nav_version = "2.3.1"
+
+    // Java language implementation
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
 
